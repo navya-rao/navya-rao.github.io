@@ -1,15 +1,14 @@
-/* begin contact section */
-/* resume button */
 .button {
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 1vw 2vw;
+  /*padding-bottom:*/
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  float:right;
+  font-size: 1.5vw;
+  margin: 1vw 2vw;
+  
   cursor: pointer;
 }
 /* social media */
@@ -19,11 +18,14 @@ background-color: #4CAF50;
 
 #icon{
 	font-size:4vw;
-    	color:#B7D5D4;
+    color:#B7D5D4;
+    display: inline-block;
 	padding:3vw;
+    
 }
 .iformat{
 	text-align: center;
+    
 }
 
 /* end contact section */
