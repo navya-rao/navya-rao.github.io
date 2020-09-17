@@ -1,20 +1,66 @@
+/* begin nav bar section */
+ul {
+  list-style-type: none;
+  margin: 0;
+  margin: 0 !important;
+  padding: 0;
+  overflow: hidden;
+  background-color: #001826;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #fffcfc;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:Georgia;
+}
+
+li a:hover:not(.active) {
+  background-color: #59C9A5;
+}
+
+.active {
+  background-color: #001826;
+}
+/* end nav bar section */
+/* begin header section */
+.header{
+	text-align: center;
+	font-family: Georgia;
+    font-size: 20px;
+    background-color: #C6F3EF;
+}
+.hrline{
+	text-align: center;
+    width: 95%;
+}
+/* end header section */
 /* begin introduction section */
 .intro{
-	padding: 0vw 2vw 4vw 4vw;
+	padding: 0vw 3vw 0vw 3vw;
     font-family:Georgia;
 }
 /* end introduction section */
 /* begin contact section */
-#icon{
+.contacttext{
+	padding: 0vw 3vw 0vw 3vw;
+    font-family:Georgia;
+}
+.icon{
 	font-size:4vw;
-    color:#B7D5D4;
+    color:#E29578;
     display: inline-block;
-	padding: 1vw 3vw;
+	padding: 15px 25px;
     
 }
 .iformat{
-	text-align: center;
-    
+	text-align: center; 
 }
 /* end contact section */
 /* begin instagram feed */
