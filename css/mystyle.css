@@ -5,7 +5,7 @@ ul {
   margin: 0 !important;
   padding: 0;
   overflow: hidden;
-  background-color: #001826;
+  background-color: #011926;
 }
 
 li {
@@ -22,7 +22,8 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #59C9A5;
+  background-color: white;
+  color: black;
 }
 
 .active {
@@ -31,10 +32,13 @@ li a:hover:not(.active) {
 /* end nav bar section */
 /* begin header section */
 .header{
+	margin-top: 0;
+	margin-bottom: 0;
+    padding: 1vw;
 	text-align: center;
 	font-family: Georgia;
     font-size: 20px;
-    background-color: #C6F3EF;
+    background-color: #EBF7FF;
 }
 .hrline{
 	text-align: center;
@@ -43,20 +47,26 @@ li a:hover:not(.active) {
 /* end header section */
 /* begin introduction section */
 .intro{
-	padding: 0vw 3vw 0vw 3vw;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 3vw;
     font-family:Georgia;
+    background-color: #EBFFF2;
 }
 /* end introduction section */
 /* begin contact section */
 .contacttext{
-	padding: 0vw 3vw 0vw 3vw;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 1vw;
     font-family:Georgia;
+    background-color: #EBFFF2;
 }
 .icon{
-	font-size:4vw;
-    color:#E29578;
+	font-size:5vw;
+    color: #011926;
     display: inline-block;
-	padding: 15px 25px;
+	padding: 0px 25px 0px;
     
 }
 .iformat{
