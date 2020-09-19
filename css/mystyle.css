@@ -5,7 +5,7 @@ ul {
   margin: 0 !important;
   padding: 0;
   overflow: hidden;
-  background-color: #011926;
+  background-color: #00383D;
 }
 
 li {
@@ -23,7 +23,7 @@ li a {
 
 li a:hover:not(.active) {
   background-color: white;
-  color: black;
+  color: #001826;
 }
 
 .active {
@@ -38,7 +38,7 @@ li a:hover:not(.active) {
 	text-align: center;
 	font-family: Georgia;
     font-size: 20px;
-    background-color: #EBF7FF;
+    /*background-color: #EBF7FF;*/
 }
 .hrline{
 	text-align: center;
@@ -51,7 +51,7 @@ li a:hover:not(.active) {
 	margin-bottom: 0;
 	padding: 3vw;
     font-family:Georgia;
-    background-color: #EBFFF2;
+    /*background-color: #EBFFF2;*/
 }
 /* end introduction section */
 /* begin contact section */
@@ -60,11 +60,11 @@ li a:hover:not(.active) {
 	margin-bottom: 0;
 	padding: 1vw;
     font-family:Georgia;
-    background-color: #EBFFF2;
+    /*background-color: #EBFFF2;*/
 }
 .icon{
 	font-size:5vw;
-    color: #011926;
+    color: #001826;
     display: inline-block;
 	padding: 0px 25px 0px;
     
